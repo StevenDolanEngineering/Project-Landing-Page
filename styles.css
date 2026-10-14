@@ -3,12 +3,24 @@ img {
     height: 200px;
 }
 
-.header {
+header {
     background-color: rgb(35, 9, 209);
     color: white;
     margin: 0;
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
+}
+
+.header-main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .logo-and-links{
@@ -25,12 +37,8 @@ a {
 }
 
 .sidebar {
-  width: 300px;
-  box-sizing: border-box;
-  flex-shrink: 0;
-  padding: 16px;
-  margin-left: auto;
-  margin-right: 0;
+    align-self: center;
+    margin: 0 52px;
 }
 
 .body {
