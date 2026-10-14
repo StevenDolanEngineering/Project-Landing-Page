@@ -34,7 +34,7 @@ h3 {
 
 p {
     color: lightgray;
-    font-size: 20x;
+    font-size: 20px;
     margin: 0;
 }
 
@@ -74,7 +74,7 @@ a {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    align-items: cetner;
+    align-items: center;
 }
 
 .container {
