@@ -21,6 +21,10 @@ button {
     font-size: 20px;
 }
 
+p {
+    color: lightgray;
+}
+
 .header-main-content {
     display: flex;
     justify-content: space-around;
@@ -40,7 +44,7 @@ button {
 
 a {
     text-decoration: none;
-    color: white;
+    color: lightgray;
     list-style-type: none;
     margin: 0;
     padding: 0;
