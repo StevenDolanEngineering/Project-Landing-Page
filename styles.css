@@ -4,16 +4,26 @@ img {
 }
 
 header {
-    background-color: rgb(35, 9, 209);
+    background-color: rgb(47, 43, 75);
     color: white;
     margin: 0;
+    padding: 12px;
     display: flex;
     flex-direction: column;
 }
 
+button {
+    border-radius: 8px;
+    color: white;
+    background-color: blue;
+    align-self: flex-start;
+    padding: 10px;
+    font-size: 20px;
+}
+
 .header-main-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -38,7 +48,7 @@ a {
 
 .sidebar {
     align-self: center;
-    margin: 0 52px;
+    margin: 0;
 }
 
 .body {
