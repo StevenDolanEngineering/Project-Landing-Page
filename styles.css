@@ -42,6 +42,7 @@ p {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 40px;
 }
 
 .header-text-group {
@@ -89,4 +90,12 @@ a {
 .text {
     font-size: 18px;
     text-align: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
 }
