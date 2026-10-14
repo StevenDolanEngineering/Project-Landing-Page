@@ -23,6 +23,7 @@ button {
 
 h1 {
     font-size: 48px;
+    margin: 0;
 }
 
 h3 {
@@ -50,6 +51,7 @@ p {
 .logo-and-links{
     display: flex;
     justify-content: space-between;
+    padding: 16px;
 }
 
 a {
