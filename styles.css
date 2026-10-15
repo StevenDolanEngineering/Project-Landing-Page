@@ -12,6 +12,14 @@ header {
     flex-direction: column;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 button {
     border-radius: 8px;
     color: white;
@@ -128,4 +136,12 @@ a {
     margin: 60px;
     border-radius: 8px;
     width: 75%;
+}
+
+.footer {
+    background-color: rgb(47, 43, 75);
+    width: 100%;
+    padding: 40px 0;
+    margin-top: auto;
+    text-align: center;
 }
