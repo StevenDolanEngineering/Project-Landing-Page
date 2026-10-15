@@ -32,6 +32,12 @@ h3 {
     font-size: 36px;
 }
 
+h5 {
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+
 p {
     color: lightgray;
     font-size: 20px;
@@ -111,4 +117,8 @@ a {
 .speaker {
     font-size: 20px;
     font-weight: 900;
+}
+
+.sign-up-section{
+    background-color: rgb(13, 63, 226);
 }
