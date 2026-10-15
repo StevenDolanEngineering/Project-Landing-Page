@@ -121,4 +121,11 @@ a {
 
 .sign-up-section{
     background-color: rgb(13, 63, 226);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    margin: 60px;
+    border-radius: 8px;
+    width: 75%;
 }
